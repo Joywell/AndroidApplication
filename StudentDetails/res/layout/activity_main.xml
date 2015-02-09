@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/myLayout"
+             android:stretchColumns="0"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent">
+             
+		<TextView android:text="Student Details"
+				  android:layout_x="110dp"
+				  android:layout_y="10dp"
+		          android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"/>
+		
+		<TextView android:text="Roll No"
+				  android:layout_x="30dp"
+				  android:layout_y="50dp"
+		          android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"/>
+		
+		<EditText android:id="@+id/editRollno"
+				  android:inputType="number"	 
+				  android:layout_x="150dp"
+				  android:layout_y="50dp"
+		          android:layout_width="150dp"
+		          android:layout_height="40dp"/>
+		
+		<TextView android:text="Name"
+				  android:layout_x="30dp"
+				  android:layout_y="100dp"
+		          android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"/>
+		
+		<EditText android:id="@+id/editName"	 
+				  android:inputType="text"	 
+				  android:layout_x="150dp"
+				  android:layout_y="100dp"
+		          android:layout_width="150dp"
+		          android:layout_height="40dp"/>
+		
+		<TextView android:text="Marks"
+				  android:layout_x="30dp"
+				  android:layout_y="150dp"
+		          android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"/>
+		
+		<EditText android:id="@+id/editMarks"	 
+				  android:inputType="number"	 
+				  android:layout_x="150dp"
+				  android:layout_y="150dp"
+		          android:layout_width="150dp"
+		          android:layout_height="40dp"/>
+		
+		<Button	  android:id="@+id/btnAdd"
+				  android:text="Add"
+				  android:layout_x="30dp"
+				  android:layout_y="200dp"
+		          android:layout_width="100dp"
+		          android:layout_height="40dp"/>
+		
+		<Button	  android:id="@+id/btnDelete"
+				  android:text="Delete"
+				  android:layout_x="150dp"
+				  android:layout_y="200dp"
+		          android:layout_width="100dp"
+		          android:layout_height="40dp"/>
+		
+		<Button   android:id="@+id/btnModify"
+				  android:text="Modify"
+				  android:layout_x="30dp"
+				  android:layout_y="250dp"
+		          android:layout_width="100dp"
+		          android:layout_height="40dp"/>
+		
+		<Button   android:id="@+id/btnView"
+				  android:text="View"
+				  android:layout_x="150dp"
+				  android:layout_y="250dp"
+		          android:layout_width="100dp"
+		          android:layout_height="40dp"/>
+		
+		<Button   android:id="@+id/btnViewAll"
+				  android:text="View All"
+				  android:layout_x="30dp"
+				  android:layout_y="300dp"
+		          android:layout_width="100dp"
+		          android:layout_height="40dp"/>
+		
+		<Button   android:id="@+id/btnShowInfo"
+				  android:text="Show Info"
+				  android:layout_x="150dp"
+				  android:layout_y="300dp"
+		          android:layout_width="100dp"
+		          android:layout_height="40dp"/>
+</AbsoluteLayout>
